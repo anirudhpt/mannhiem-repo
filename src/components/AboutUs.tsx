@@ -2,8 +2,6 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Users, Award, Heart, Clock } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
 
 export default function AboutUs() {
@@ -46,7 +44,7 @@ export default function AboutUs() {
                 
                 <div className="border-l-4 border-gray-400/80 pl-4 mt-6">
                   <p className="text-sm text-gray-200 italic font-kobenhavn">
-                    "Four generations of brewing excellence since 1895"
+                    &ldquo;Four generations of brewing excellence since 1895&rdquo;
                   </p>
                 </div>
               </div>

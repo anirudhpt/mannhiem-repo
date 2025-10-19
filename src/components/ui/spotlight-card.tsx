@@ -13,7 +13,7 @@ interface SpotlightCardProps {
 export const SpotlightCard = React.forwardRef<
   HTMLDivElement,
   SpotlightCardProps
->(({ children, className, spotlightColor = "#ffffff" }, _ref) => {
+>(({ children, className, spotlightColor = "#ffffff" }) => {
   const divRef = useRef<HTMLDivElement>(null);
   const [isFocused, setIsFocused] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });

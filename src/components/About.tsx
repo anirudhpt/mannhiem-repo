@@ -2,36 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Building2, Users, Zap, Heart, Beer, Award, Leaf, Clock } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
 import { SpotlightCard } from "@/components/ui/spotlight-card";
-
-const features = [
-  {
-    icon: Beer,
-    title: "Craft Excellence",
-    description: "Traditional German brewing techniques combined with innovative flavors to create exceptional craft beers.",
-    color: "bg-gray-500"
-  },
-  {
-    icon: Award,
-    title: "Award-Winning Recipes",
-    description: "Our master brewers have won numerous international awards for quality and taste innovation.",
-    color: "bg-gray-600"
-  },
-  {
-    icon: Leaf,
-    title: "Sustainable Brewing",
-    description: "Committed to eco-friendly practices with locally sourced ingredients and sustainable production methods.",
-    color: "bg-green-500"
-  },
-  {
-    icon: Clock,
-    title: "Time-Honored Tradition",
-    description: "Over 127 years of brewing heritage, passed down through generations of master brewers.",
-    color: "bg-orange-500"
-  }
-];
 
 export default function Brewery() {
   return (
@@ -72,7 +43,7 @@ export default function Brewery() {
                 
                 <div className="border-l-4 border-gray-400/80 pl-4 mt-6">
                   <p className="text-sm text-gray-200 italic font-kobenhavn">
-                    "Precision brewing meets timeless tradition"
+                    &ldquo;Precision brewing meets timeless tradition&rdquo;
                   </p>
                 </div>
               </div>
