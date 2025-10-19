@@ -101,8 +101,6 @@ export default function NowPouringAt() {
     }
   }, [isPaused, paginate]);
 
-  const currentLocation = useMemo(() => locations[currentIndex], [currentIndex]);
-
   return (
     <section 
       className="scroll-section bg-black relative overflow-hidden"
